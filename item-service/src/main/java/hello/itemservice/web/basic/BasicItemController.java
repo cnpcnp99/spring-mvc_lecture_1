@@ -25,6 +25,8 @@ public class BasicItemController {
         List<Item> items = itemRepository.findAll();
         model.addAttribute("items", items);
         return "basic/items";
+
+        
     }
 
     @GetMapping("/{itemId}")
