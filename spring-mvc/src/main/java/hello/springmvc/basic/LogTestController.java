@@ -12,6 +12,8 @@ public class LogTestController {
     // == @Slf4j
     // private final Logger log = LoggerFactory.getLogger(getClass()); // getClass() == LogTestController.class
 
+
+
     @RequestMapping("/log-test")
     public String logTest() {
         String name = "Spring";
